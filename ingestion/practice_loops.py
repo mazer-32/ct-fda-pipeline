@@ -6,4 +6,5 @@ for phase in trial_phases:
 
 for phase, n in sorted(counts.items()):
     print(phase, n)
-    print("Total trials:", len(trial_phases))
+    
+print("Total trials:", len(trial_phases))
